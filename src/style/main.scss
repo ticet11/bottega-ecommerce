@@ -2,11 +2,15 @@ html {
     font-size: 62.5%;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-@import 'layout.scss';
-@import 'headerNavbar.scss';
+@import "./layout.scss";
+@import "./headerNavbar.scss";
+@import "./auth/signIn.scss";
+@import "./auth/signUp.scss";
